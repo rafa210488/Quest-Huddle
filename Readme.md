@@ -18,12 +18,12 @@ Usuários devem ser capazes de:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/rafa210488/Quest-Huddle
+- Live Site URL: https://rafa210488.github.io/Quest-Huddle/
 
 ### Criado com
 
-- Semantic HTML5 markup HTML5 semântico
+- HTML5 semântico
 - CSS Grid e Flexbox
 
 ### O que aprendi?
