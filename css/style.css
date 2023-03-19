@@ -11,17 +11,6 @@ body {
 
 }
 
-/* .container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto;
-  grid-template-areas:
-    "header"
-    "hud"
-    "footer";
-  padding: 30px 30px 0 30px;
-} */
-
 .container {
   display: flex;
   flex-direction: column;
@@ -97,17 +86,21 @@ body {
   color: #fff;
 }
 
-.social {
+/* .social {
   display: flex;
   justify-content: flex-end;
   gap: 30px;
   margin: 50px 100px 0 0;
   padding-bottom: 20px;
   
+} */
+
+.social {
+  text-align: end;
+  margin: 50px 55px 0 0;
 }
 
 .social .fa-facebook-f {
-  
   color: #fff;
   border: 1px solid #fff;
   width: 40px;
@@ -115,6 +108,7 @@ body {
   text-align: center;
   border-radius: 100px;
   padding: 6px;
+  margin-right: 20px;
 }
 
 .social .fa-twitter {
@@ -125,6 +119,7 @@ body {
   text-align: center;
   border-radius: 100px;
   padding: 6px;
+  margin-right: 20px;
 }
 
 .social .fa-instagram {
@@ -135,6 +130,8 @@ body {
   text-align: center;
   border-radius: 100px;
   padding: 6px;
+  
+  
 }
 
 .social .fa-facebook-f:hover {
@@ -197,10 +194,7 @@ body {
   }
 
   .social {
-    display: flex;
-    justify-content: center;
-    padding: 0 0 50px 30px;
-    margin: 0 auto;
+    margin: 40px auto;
   }
 }
 
@@ -221,6 +215,6 @@ body {
   }
 
   .social {
-    margin-right: 80px;
+    margin: 0 auto 30px;
   }
 }
